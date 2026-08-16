@@ -382,24 +382,7 @@ As networks become deeper, the optimization problem can become more difficult, n
 
 ## 17. Batch Normalization
 
-Batch Normalization (BatchNorm) is commonly used in deep neural networks. It normalizes activations using statistics calculated from a mini-batch during training. A simplified form is:
-
-\[
-\hat{x} = \frac{x - \mu}{\sqrt{\sigma^2 + \epsilon}}
-\]
-
-Then learnable parameters scale and shift the normalized values:
-
-\[
-y = \gamma \hat{x} + \beta
-\]
-
-Where:
-- \(\mu\) = batch mean
-- \(\sigma^2\) = batch variance
-- \(\epsilon\) = small numerical constant
-- \(\gamma\) = learnable scale
-- \(\beta\) = learnable shift
+Batch Normalization (BatchNorm) is commonly used in deep neural networks. It normalizes activations using statistics calculated from a mini-batch during training. 
 
 BatchNorm helps stabilize and accelerate training, and ResNet architectures make extensive use of Batch Normalization.
 
@@ -409,22 +392,22 @@ BatchNorm helps stabilize and accelerate training, and ResNet architectures make
 
 As networks become deeper, it becomes increasingly important to maintain effective information and gradient flow. A traditional transformation can be represented as:
 
-\[
+
 H(x) = F(x)
-\]
+
 
 ResNet introduces a residual formulation:
 
-\[
+
 H(x) = F(x) + x
-\]
+
 
 Where:
-- \(x\) = input
-- \(F(x)\) = learned residual transformation
-- \(H(x)\) = desired transformation
+- (x) = input
+- (F(x)) = learned residual transformation
+- (H(x)) = desired transformation
 
-The input \(x\) is transmitted through a Skip Connection and added to the learned residual.
+The input (x) is transmitted through a Skip Connection and added to the learned residual.
 
 ### Conceptual Diagram
 
