@@ -463,24 +463,7 @@ Feature extraction is therefore one of the fundamental processes in deep learnin
     ```
 
     For each channel, GAP calculates the average activation across the spatial dimensions.
-
-    For a feature map (A_k):
-
-    ```
-    z_k=
-    \frac{1}{H\times W}
-    \sum_{i=1}^{H}
-    \sum_{j=1}^{W}
-    A_k(i,j)
-    ```
-
-    where:
-
-    - (H) = height
-    - (W) = width
-    - (A_k) = the (k)-th feature map
-    - (z_k) = the resulting feature value
-
+    
     The result is a compact feature vector.
 
 ---
