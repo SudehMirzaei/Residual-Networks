@@ -430,7 +430,7 @@ This architecture makes optimization of very deep networks easier.
 
 ---
 
-## 19. From Deep CNNs to ResNet
+## 19. From Traditional CNNs to ResNet
 
 The progression can be summarized as:
 
