@@ -14,21 +14,15 @@ The key idea behind ResNet is **Residual Learning**.
 
 Instead of requiring a group of layers to directly learn a complete transformation:
 
-\[
 H(x)
-\]
 
 ResNet reformulates the problem as learning a residual function:
 
-\[
 F(x)=H(x)-x
-\]
 
 The final output is then:
 
-\[
-\boxed{H(x)=F(x)+x}
-\]
+H(x)=F(x)+x
 
 This is implemented using **Skip Connections**.
 
