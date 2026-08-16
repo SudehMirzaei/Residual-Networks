@@ -374,16 +374,7 @@ The deeper network may have enough theoretical capacity to represent the shallow
 
 ## 16. Deep Networks and Optimization
 
-Training a neural network means finding parameters that minimize a loss function. Formally:
-
-\[
-\theta^* = \arg\min_{\theta} L(\theta)
-\]
-
-Where:
-- \(\theta\) = model parameters
-- \(L(\theta)\) = loss function
-- \(\theta^*\) = parameters that minimize the loss
+Training a neural network means finding parameters that minimize a loss function.
 
 As networks become deeper, the optimization problem can become more difficult, necessitating mechanisms that allow information and gradients to propagate effectively.
 
