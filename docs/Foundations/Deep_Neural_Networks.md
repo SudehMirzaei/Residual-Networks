@@ -403,11 +403,11 @@ H(x) = F(x) + x
 
 
 Where:
-- (x) = input
-- (F(x)) = learned residual transformation
-- (H(x)) = desired transformation
+- x = input
+- F(x) = learned residual transformation
+- H(x) = desired transformation
 
-The input (x) is transmitted through a Skip Connection and added to the learned residual.
+The input x is transmitted through a Skip Connection and added to the learned residual.
 
 ### Conceptual Diagram
 
