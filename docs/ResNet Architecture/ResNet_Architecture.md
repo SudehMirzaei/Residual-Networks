@@ -223,9 +223,9 @@ Batch Normalization helps stabilize neural network training.
 
 ResNet uses the Rectified Linear Unit (ReLU) activation function.
 
-\[
+
 ReLU(x)=max(0,x)
-\]
+
 
 Therefore:
 
