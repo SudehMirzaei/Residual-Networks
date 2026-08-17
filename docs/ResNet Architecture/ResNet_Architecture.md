@@ -153,7 +153,7 @@ Each component contributes to the overall architecture.
 
 For image classification, a standard ResNet configuration commonly receives an RGB image such as:
 
-224*224*3
+224 × 224 × 3
 
 where:
 
@@ -175,15 +175,12 @@ Initial Convolution
 
 The original ResNet architecture begins with a:
 
-\[
-7\times7
-\]
+7 × 7
 
 convolution with:
 
-\[
 64
-\]
+
 
 output channels and a stride of 2.
 
