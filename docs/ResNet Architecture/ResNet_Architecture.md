@@ -216,21 +216,6 @@ ReLU
 
 Batch Normalization helps stabilize neural network training.
 
-A simplified formulation is:
-
-\[
-\hat{x}=
-\frac{x-\mu}
-{\sqrt{\sigma^2+\epsilon}}
-\]
-
-followed by:
-
-\[
-y=\gamma\hat{x}+\beta
-\]
-
-where (\gamma) and (\beta) are learnable parameters.
 
 ---
 
@@ -256,7 +241,7 @@ ReLU introduces non-linearity into the network and allows the model to learn com
 After the initial convolution and activation, ResNet uses a:
 
 \[
-3\times3
+3 × 3
 \]
 
 Max Pooling layer with stride 2.
