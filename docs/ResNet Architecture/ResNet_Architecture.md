@@ -153,9 +153,7 @@ Each component contributes to the overall architecture.
 
 For image classification, a standard ResNet configuration commonly receives an RGB image such as:
 
-\[
-224\times224\times3
-\]
+224*224*3
 
 where:
 
