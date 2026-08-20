@@ -387,8 +387,6 @@ In this situation, ResNet can use a projection shortcut, typically implemented u
 conv 1 × 1
 \]
 
-convolution.
-
 ```
 Input
   │
