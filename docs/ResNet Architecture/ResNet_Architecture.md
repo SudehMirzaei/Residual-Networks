@@ -449,7 +449,7 @@ At the same time, the number of channels generally increases:
 This creates an important architectural principle:
 
 \[
-Spatial\ Resolution \downarrow
+Spatial\ Resolution \↓
 \]
 
 while:
