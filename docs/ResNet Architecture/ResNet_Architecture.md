@@ -455,7 +455,7 @@ Spatial\ Resolution \↓
 while:
 
 \[
-Feature\ Channels \uparrow
+Feature\ Channels \↑
 \]
 
 ---
