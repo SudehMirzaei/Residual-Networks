@@ -699,7 +699,7 @@ However, each Bottleneck Block contains three convolutional layers.
 Thus:
 
 \[
-16\times3=48
+16 × 3=48
 \]
 
 convolutional layers.
