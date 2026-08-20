@@ -530,7 +530,7 @@ ReLU
 
 # 17. Why Use Bottleneck Blocks?
 
-A direct sequence of multiple (3\times3) convolutions with a large number of channels would be computationally expensive.
+A direct sequence of multiple (3 × 3) convolutions with a large number of channels would be computationally expensive.
 
 The bottleneck design reduces computational cost by performing the spatial convolution at a smaller channel dimension.
 
