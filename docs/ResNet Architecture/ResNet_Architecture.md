@@ -738,7 +738,7 @@ Bottleneck Blocks.
 Since each block contains three convolutional layers:
 
 \[
-33\times3=99
+33 × 3=99
 \]
 
 Adding the initial convolution and final fully connected layer:
@@ -779,7 +779,7 @@ Bottleneck Blocks.
 Therefore:
 
 \[
-50\times3=150
+50 × 3=150
 \]
 
 convolutional layers.
