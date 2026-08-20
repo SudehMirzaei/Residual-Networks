@@ -384,7 +384,7 @@ The input cannot be directly added to the output because their dimensions do not
 In this situation, ResNet can use a projection shortcut, typically implemented using a:
 
 \[
-1\times1
+conv 1 × 1
 \]
 
 convolution.
