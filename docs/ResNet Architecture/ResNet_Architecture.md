@@ -1124,7 +1124,7 @@ The most important architectural concepts are:
 - **Residual Learning**
 
 \[
-\boxed{H(x)=F(x)+x}
+{H(x)=F(x)+x}
 \]
 
 - **Skip Connections:** Provide a shortcut path between the input and output of a residual block.
@@ -1144,7 +1144,7 @@ ResNet is a family of deep convolutional neural networks built around the princi
 The central architectural idea is the addition of a shortcut connection:
 
 \[
-\boxed{y=F(x)+x}
+{y=F(x)+x}
 \]
 
 This allows the network to learn residual transformations while maintaining a direct path between earlier and later representations.
