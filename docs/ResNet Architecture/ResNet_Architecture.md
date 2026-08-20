@@ -750,7 +750,7 @@ Adding the initial convolution and final fully connected layer:
 Thus:
 
 \[
-\boxed{ResNet101}
+{ResNet101}
 \]
 
 ---
@@ -793,7 +793,7 @@ Adding the initial convolution and final fully connected layer:
 Thus:
 
 \[
-\boxed{ResNet152}
+{ResNet152}
 \]
 
 ---
@@ -814,7 +814,7 @@ This demonstrates that deeper ResNet variants increase the number of residual bl
 
 # 26. ResNet50 Feature Dimensions
 
-For a typical (224\times224) input, the spatial dimensions in ResNet50 approximately evolve as:
+For a typical (224 × 224) input, the spatial dimensions in ResNet50 approximately evolve as:
 
 ```
 Input
@@ -859,7 +859,7 @@ After the final residual stage, ResNet applies Global Average Pooling.
 For ResNet50:
 
 ```
-7\times7\times2048
+7 × 7 × 2048
 ```
 
 becomes:
@@ -870,15 +870,6 @@ becomes:
 
 The operation calculates the average value of each feature map.
 
-For a feature map (A_k):
-
-```
-z_k=
-\frac{1}{H\times W}
-\sum_{i=1}^{H}
-\sum_{j=1}^{W}
-A_k(i,j)
-```
 
 The result is a 2048-dimensional feature vector.
 
@@ -912,25 +903,7 @@ The architecture can therefore be adapted to different datasets.
 
 For multi-class classification, the class scores can be converted into probabilities using Softmax.
 
-For class (i):
-
-\[
-P(y=i)=
-\frac{e^{z_i}}
-{\sum_{j=1}^{C}e^{z_j}}
-\]
-
-where:
-
-- (z_i) = score for class (i)
-- (C) = number of classes
-- (P(y=i)) = predicted probability
-
 The probabilities sum to 1:
-
-\[
-\sum_{i=1}^{C}P(y=i)=1
-\]
 
 In many PyTorch implementations, Softmax is not explicitly included in the model during training when CrossEntropyLoss is used, because the loss function internally applies the required log-softmax operation.
 
@@ -1001,13 +974,6 @@ For a residual block:
 y=F(x)+x
 \]
 
-the derivative with respect to (x) is:
-
-\[
-\frac{\partial y}{\partial x}
-=
-\frac{\partial F(x)}{\partial x}+1
-\]
 
 The identity term provides a direct contribution to the gradient.
 
