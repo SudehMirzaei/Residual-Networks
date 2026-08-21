@@ -882,5 +882,5 @@ Output = F(x) + Wₛx
 ```
 
 The combination of Bottleneck Design + Residual Learning allows ResNet50 to build a deep network while keeping computation manageable and maintaining effective gradient flow.
-```
+
 
