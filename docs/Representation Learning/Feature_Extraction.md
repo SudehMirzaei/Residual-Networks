@@ -846,35 +846,6 @@ Feature extraction is therefore one of the fundamental processes in deep learnin
     - **Global Average Pooling**: Transforms the final spatial feature maps into a compact feature vector.
     - **Feature Vector**: A numerical representation of the input that can be used for classification, visualization, similarity analysis, and other tasks.
 
----
-
-**Conclusion**
-
-Feature extraction is a fundamental component of deep learning for computer vision. Instead of manually designing all visual descriptors, CNNs learn feature representations directly from data. The learned representation evolves through the network:
-
-```
-\boxed{
-Pixels
-\rightarrow
-Edges
-\rightarrow
-Textures
-\rightarrow
-Shapes
-\rightarrow
-Complex\ Patterns
-\rightarrow
-High\text{-}Level\ Features
-}
-```
-
-In ResNet50, residual blocks allow this hierarchical representation learning to be performed through a deep network while maintaining effective information and gradient flow. The final convolutional representation is transformed by Global Average Pooling into a compact feature vector:
-
-```
-7×7×2048
-\rightarrow
-2048
-```
 
 This representation can then be used for classification or extracted and analyzed independently. Therefore, ResNet50 should not be viewed only as a classifier. Its convolutional backbone is also a powerful feature extractor and representation learning system.
 ```
