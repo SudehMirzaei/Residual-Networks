@@ -1359,5 +1359,5 @@ Therefore, useful information can be preserved while new information is learned.
 - During training, forward propagation is followed by loss calculation and backpropagation.
 - During inference, only the forward pass is required.
 - The forward pass through the ResNet50 backbone can also be used to extract high-level feature representations.
-```
+
 
